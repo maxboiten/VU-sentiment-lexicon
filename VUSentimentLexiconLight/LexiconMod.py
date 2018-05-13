@@ -271,7 +271,7 @@ class LexiconSent:
             guess='positive'
         elif totalPositive < totalNegative: 
             guess='negative'
-        elif docProperties['numNegators'] > 0: 
+        elif docProperties['numNegations'] > 0: 
             guess='negative'
         else: 
             guess='neutral'
