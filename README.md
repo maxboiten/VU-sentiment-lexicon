@@ -26,7 +26,7 @@ Use
 ```python
 from VUSentimentLexiconLight import LexiconSent
 lexicon = LexiconSent('nl')
-sentiment = lexicon.
+lexicon.getPolarity('mooi', 'ADJ', spacyPos = True)
 ```
 
 Lexicons
