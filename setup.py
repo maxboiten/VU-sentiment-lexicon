@@ -1,11 +1,11 @@
 from distutils.core import setup
 
-setup(name='VUSentimentLexicon',
-      version='1.1',
-      description = 'Library in python to load and query sentiment lexicons',
-      author = 'Ruben Izquierdo',
-      author_email = 'r.izquierdobevia@vu.nl',
-      packages = ['VUSentimentLexicon'],
-      package_data = {'VUSentimentLexicon':['*-lexicon/*']}
+setup(name='VUSentimentLexiconLight',
+      version='0.1',
+      description = 'Small version of VU Sentiment Lexicon. Code covers VU-sentiment-aggregator and' + 
+      'VU-polarity-tagger package functionalities, but allows outside pos-tagger such as spaCy.',
+      author = 'Max Boiten',
+      packages = ['VUSentimentLexiconLight'],
+      package_data = {'VUSentimentLexiconLight':['*-lexicon/*']}
       )
       
