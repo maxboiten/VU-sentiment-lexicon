@@ -212,7 +212,7 @@ class LexiconSent:
             raise Exception('The lemmas and POS tags elements do not correspond in terms of length')
         
         docProperties = {
-            'numPostive' : 0,
+            'numPositive' : 0,
             'numNegative' : 0,
             'numNegPositive' : 0,
             'numNegNegative' : 0,
