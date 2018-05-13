@@ -12,12 +12,12 @@ def load_lexicons(language, path=None):
         if path is None:
             path = __module_dir
         folder_per_lang = {}
-        folder_per_lang['nl'] = r'Lexicons\NL-lexicon'
-        folder_per_lang['en'] = r'Lexicons\EN-lexicon'
-        folder_per_lang['de'] = r'Lexicons\DE-lexicon'
-        folder_per_lang['fr'] = r'Lexicons\FR-lexicon'
-        folder_per_lang['it'] = r'Lexicons\IT-lexicon'
-        folder_per_lang['es'] = r'Lexicons\ES-lexicon'
+        folder_per_lang['nl'] = 'Lexicons/NL-lexicon'
+        folder_per_lang['en'] = 'Lexicons/EN-lexicon'
+        folder_per_lang['de'] = 'Lexicons/DE-lexicon'
+        folder_per_lang['fr'] = 'Lexicons/FR-lexicon'
+        folder_per_lang['it'] = 'Lexicons/IT-lexicon'
+        folder_per_lang['es'] = 'Lexicons/ES-lexicon'
 
         config_file = os.path.join(path,folder_per_lang[language],'config.xml')
         

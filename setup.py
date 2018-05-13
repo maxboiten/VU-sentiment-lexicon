@@ -6,6 +6,6 @@ setup(name='VUSentimentLexiconLight',
       'VU-polarity-tagger package functionalities, but allows outside pos-tagger such as spaCy.',
       author = 'Max Boiten',
       packages = ['VUSentimentLexiconLight'],
-      package_data = {'VUSentimentLexiconLight':['*-lexicon/*']}
+      package_data = {'VUSentimentLexiconLight':['Lexicons/*/*']}
       )
       
